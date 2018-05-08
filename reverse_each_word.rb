@@ -6,4 +6,5 @@ def reverse_each_word(sentence)
   end
   result = result.strip
 end
-reverse_each_word("hello there, and how are you?")
+
+def rever

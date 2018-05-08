@@ -12,5 +12,6 @@ def reverse_each_word(sentence)
   reverse_words = words.collect {|word|
     word.reverse
   }
+  
     
 reverse_each_word("hello world")

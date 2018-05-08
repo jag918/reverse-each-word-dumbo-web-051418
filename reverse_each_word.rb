@@ -13,7 +13,8 @@ def reverse_each_word_collect(sentence)
     word.reverse
   }
   results = ""
-  for word in reverse_words:
+  for word in reverse_words
     results += " " + word
+  end
   results = results.strip
 end

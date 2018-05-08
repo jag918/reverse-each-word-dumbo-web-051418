@@ -7,4 +7,6 @@ def reverse_each_word(sentence)
   result = result.strip
 end
 
-def reverse_eac
+def reverse_each_word(sentence)
+  words=sentence.split(" ")
+  

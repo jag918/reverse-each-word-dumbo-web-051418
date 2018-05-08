@@ -12,9 +12,10 @@ def reverse_each_word(sentence)
   reverse_words = words.collect {|word|
     word.reverse
   }
-  loops do {
-    counter = 0
-    
-  }
-    
+  results = ""
+  for word in reverse_words:
+    results += " " + word
+  end
+  results = results.strip
+end
 reverse_each_word("hello world")

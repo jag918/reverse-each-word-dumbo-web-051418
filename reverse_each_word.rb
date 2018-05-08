@@ -11,3 +11,4 @@ end
 #   words=sentence.split(" ")
 #   reverse_words = words.collect do |word|
     
+reverse_each_word("hello world")

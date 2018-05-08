@@ -18,4 +18,3 @@ def reverse_each_word(sentence)
   end
   results = results.strip
 end
-reverse_each_word("hello world")

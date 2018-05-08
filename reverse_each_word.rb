@@ -7,3 +7,4 @@ def reverse_each_word(sentence)
   result.strip
   put(result)
   
+reverse_each_word("hello there, and how are you?")

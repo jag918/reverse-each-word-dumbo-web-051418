@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
     result += " " + word.reverse
   end
   result.strip
-  put(result)
+  puts(result)
 end
 reverse_each_word("hello there, and how are you?")

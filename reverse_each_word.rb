@@ -7,8 +7,8 @@ def reverse_each_word(sentence)
   result = result.strip
 end
 
-# def reverse_each_word(sentence)
-#   words=sentence.split(" ")
-#   reverse_words = words.collect do |word|
+def reverse_each_word(sentence)
+  words=sentence.split(" ")
+  reverse_words = words.collect do |word|
     
 reverse_each_word("hello world")

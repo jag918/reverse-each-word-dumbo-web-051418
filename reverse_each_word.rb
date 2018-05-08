@@ -15,6 +15,5 @@ def reverse_each_word_collect(sentence)
   results = ""
   for word in reverse_words:
     results += " " + word
-  end
   results = results.strip
 end

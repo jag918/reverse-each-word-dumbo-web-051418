@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   words.each do |word|
     result += " " + word.reverse
   end
-  result.strip
+  result.strip()
   puts(result)
   puts("hello")
 end
